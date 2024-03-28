@@ -82,6 +82,6 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-# 
+# Игнорировать package-lock.json и package.json
 package-lock.json
 package.json
