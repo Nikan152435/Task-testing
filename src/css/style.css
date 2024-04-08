@@ -32,28 +32,7 @@ body {
   opacity: 0.3; /* Прозрачность */
 }
 
-/* Стили для карточек различных платёжных систем */
-.card.visa {
-  background-image: url('../img/visa.png');
-}
-.card.mir {
-  background-image: url('../img/MIR.png');
-}
-.card.master {
-  background-image: url('../img/mastercard.png');
-}
-.card.amex {
-  background-image: url('../img/amex.png');
-}
-.card.discover {
-  background-image: url('../img/discover.png');
-}
-.card.jcb {
-  background-image: url('../img/jcb.png');
-}
-.card.diners_club {
-  background-image: url('../img/diners-club.png');
-}
+
 
 /* Стили для поля ввода */
 .input {
