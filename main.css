@@ -1,0 +1,116 @@
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/style.css ***!
+  \*********************************************************************/
+/* Основные стили для тела документа */
+body {
+  color: #333;
+}
+
+/* Стили для скрытых элементов */
+.hidden {
+  display: none;
+}
+
+/* Стили для списка карточек */
+.cards {
+  margin: 10px 0; /* Отступы сверху и снизу */
+  height: 25px; /* Высота списка */
+  list-style: none; /* Убираем маркеры списка */
+  padding-left: 0; /* Убираем отступ слева */
+}
+
+/* Стили для карточек */
+.card {
+  float: left; /* Размещаем карточки в строку */
+  width: 40px; /* Ширина карточки */
+  height: 32px; /* Высота карточки */
+  background-position: 0 0; /* Позиция фона */
+  text-indent: -9999px; /* Скрытие текста */
+  margin-left: 4px; /* Отступ между карточками */
+  background-size: cover; /* Масштабируем фон */
+}
+
+/* Стили для неактивных карточек */
+.nocard {
+  opacity: 0.3; /* Прозрачность */
+}
+
+
+
+/* Стили для поля ввода */
+.input {
+  display: inline-block;
+  height: 23px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+
+
+/* Стили для кнопки отправки формы */
+.submit {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  border: 1px solid #ced4da;
+}
+
+/* Стили для списка контактов */
+.contact-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  max-width: 500px; /* Максимальная ширина списка контактов */
+}
+
+/* Стили для первого и последнего элементов списка контактов */
+.contact-list-item:first-child,
+.contact-list-item:last-child {
+  border-top-left-radius: .25rem; /* Скругление верхнего левого угла */
+  border-top-right-radius: .25rem; /* Скругление верхнего правого угла */
+}
+
+/* Стили для элементов списка контактов */
+.contact-list-item {
+  position: relative;
+  display: block;
+  padding: .75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+}
+
+/* Стили для основной части контакта */
+.contact-main {
+  display: flex;
+  align-items: center;
+}
+
+/* Стили для изображения контакта */
+.contact-list-item-img {
+  border-radius: 50%; /* Скругление краёв изображения */
+  margin-right: 1rem; /* Отступ справа */
+}
+
+/* Стили для имени, телефона и действия контакта */
+.contact-list-item-name,
+.contact-list-item-phone,
+.contact-list-item-action {
+  margin-right: 1rem; /* Отступ справа */
+}
